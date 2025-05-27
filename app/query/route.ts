@@ -13,8 +13,6 @@
 // 	return data;
 // }
 
-import bcrypt from 'bcryptjs';
-
 export async function GET() {
   return Response.json({
     message:
